@@ -1,0 +1,26 @@
+[0.093s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_moveit_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_moveit_demos -- -j4 -l4
+[0.310s] [ 50%] Built target hello_moveit
+[0.324s] [100%] Built target plan_around_objects
+[0.357s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_moveit_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_moveit_demos -- -j4 -l4
+[0.364s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_moveit_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_moveit_demos
+[0.386s] -- Install configuration: ""
+[0.390s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/lib/mycobot_moveit_demos/hello_moveit
+[0.390s] -- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_moveit_demos/lib/mycobot_moveit_demos/hello_moveit" to ""
+[0.390s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/lib/mycobot_moveit_demos/plan_around_objects
+[0.395s] -- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_moveit_demos/lib/mycobot_moveit_demos/plan_around_objects" to ""
+[0.400s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/ament_index/resource_index/package_run_dependencies/mycobot_moveit_demos
+[0.402s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/ament_index/resource_index/parent_prefix_path/mycobot_moveit_demos
+[0.402s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/environment/ament_prefix_path.sh
+[0.402s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/environment/ament_prefix_path.dsv
+[0.403s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/environment/path.sh
+[0.403s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/environment/path.dsv
+[0.403s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/local_setup.bash
+[0.403s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/local_setup.sh
+[0.403s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/local_setup.zsh
+[0.404s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/local_setup.dsv
+[0.404s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/package.dsv
+[0.404s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/ament_index/resource_index/packages/mycobot_moveit_demos
+[0.404s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/cmake/mycobot_moveit_demosConfig.cmake
+[0.404s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/cmake/mycobot_moveit_demosConfig-version.cmake
+[0.404s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/package.xml
+[0.407s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_moveit_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_moveit_demos

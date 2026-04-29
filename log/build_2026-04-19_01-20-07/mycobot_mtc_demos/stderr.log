@@ -1,0 +1,11 @@
+In file included from [01m[K/home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/fallbacks_move_to.cpp:23[m[K:
+/opt/ros/jazzy/include/moveit/task_constructor/solvers/cartesian_path.h: In instantiation of ‘[01m[Kvoid moveit::task_constructor::solvers::CartesianPath::[01;32m[KsetJumpThreshold[m[K(double) [35m[K[with T = float][m[K[m[K’:
+[01m[K/home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/fallbacks_move_to.cpp:92:30:[m[K   required from here
+[01m[K/opt/ros/jazzy/include/moveit/task_constructor/solvers/cartesian_path.h:64:52:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: setJumpThreshold() is deprecated. Replace with setPrecision.
+   64 |                 static_assert(std::is_integral<T>::[01;31m[Kvalue[m[K, "setJumpThreshold() is deprecated. Replace with setPrecision.");
+      |                                                    [01;31m[K^~~~~[m[K
+[01m[K/opt/ros/jazzy/include/moveit/task_constructor/solvers/cartesian_path.h:64:52:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::integral_constant<bool, false>::value[m[K’ evaluates to false
+gmake[2]: *** [CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/build.make:76: CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/src/fallbacks_move_to.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

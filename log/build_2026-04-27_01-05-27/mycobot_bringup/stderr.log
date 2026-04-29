@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_bringup/scripts": No such
+  file or directory.
+
+[0m

@@ -1,0 +1,81 @@
+[0.062s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_description -- -j4 -l4
+[0.511s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.987s] -- Found urdf_tutorial: 1.1.0 (/opt/ros/jazzy/share/urdf_tutorial/cmake)
+[1.019s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.395s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.395s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.396s] -- Added test 'lint_cmake' to check CMake code style
+[1.401s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.424s] -- Added test 'xmllint' to check XML markup files
+[1.440s] -- Configuring done (1.1s)
+[1.591s] -- Generating done (0.1s)
+[1.607s] -- Build files have been written to: /home/ibrahim/ros2_ws/build/mycobot_description
+[1.670s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_description -- -j4 -l4
+[1.695s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_description
+[1.716s] -- Install configuration: ""
+[1.721s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/launch
+[1.721s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/launch/robot_state_publisher.launch.py
+[1.721s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes
+[1.721s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/g_shape_base_v2_0
+[1.723s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/g_shape_base_v2_0/visual
+[1.723s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/g_shape_base_v2_0/visual/base_link.dae
+[1.730s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280
+[1.730s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual
+[1.730s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/suit_env.dae
+[1.737s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link1.dae
+[1.746s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link4.png
+[1.747s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link2.png
+[1.748s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link5.dae
+[1.757s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link1.png
+[1.758s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link3.png
+[1.758s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link7.png
+[1.760s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link3.dae
+[1.766s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link5.png
+[1.767s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link6.png
+[1.767s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link4.dae
+[1.768s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link6.dae
+[1.770s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link7.dae
+[1.772s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link2.dae
+[1.776s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/d435
+[1.777s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/d435/visual
+[1.777s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/d435/visual/d435.stl
+[1.841s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper
+[1.841s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual
+[1.841s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left3.dae
+[1.858s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right3.dae
+[1.870s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right2.dae
+[1.872s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_base.dae
+[1.888s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left1.dae
+[1.891s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right1.dae
+[1.891s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left2.dae
+[1.891s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/urdf
+[1.891s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/robots
+[1.891s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/robots/mycobot_280.urdf.xacro
+[1.891s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mech
+[1.891s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mech/mycobot_280_arm.urdf.xacro
+[1.892s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mech/g_shape_base_v2_0.urdf.xacro
+[1.898s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mech/adaptive_gripper.urdf.xacro
+[1.898s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/sensors
+[1.898s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/sensors/intel_rgbd_cam_d435.urdf.xacro
+[1.899s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot280_rviz.png
+[1.899s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/control
+[1.899s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/control/gazebo_sim_ros2_control.urdf.xacro
+[1.899s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/control/mycobot_280_ros2_control.urdf.xacro
+[1.899s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/rviz
+[1.899s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/rviz/mycobot_280_description.rviz
+[1.903s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/ament_index/resource_index/package_run_dependencies/mycobot_description
+[1.903s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/ament_index/resource_index/parent_prefix_path/mycobot_description
+[1.904s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.sh
+[1.904s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.dsv
+[1.904s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.sh
+[1.904s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.dsv
+[1.906s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.bash
+[1.906s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.sh
+[1.906s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.zsh
+[1.906s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.dsv
+[1.906s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/package.dsv
+[1.906s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/ament_index/resource_index/packages/mycobot_description
+[1.906s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig.cmake
+[1.906s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig-version.cmake
+[1.907s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_description/share/mycobot_description/package.xml
+[1.911s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_description

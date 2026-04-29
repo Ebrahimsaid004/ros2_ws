@@ -1,0 +1,44 @@
+[0.044s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_mtc_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_mtc_demos -- -j4 -l4
+[0.453s] [ 16%] Built target mycobot_mtc_demos_alternative_path_costs
+[0.599s] [ 33%] Built target ik_clearance_cost_parameters
+[0.742s] [ 50%] Built target mycobot_mtc_demos_modular
+[0.940s] [ 66%] Built target mycobot_mtc_demos_ik_clearance_cost
+[1.170s] [ 75%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/src/fallbacks_move_to.cpp.o[0m
+[14.252s] [ 83%] [32m[1mLinking CXX executable fallbacks_move_to[0m
+[14.854s] [ 83%] Built target mycobot_mtc_demos_fallbacks_move_to
+[14.982s] [100%] Built target mycobot_mtc_demos_cartesian
+[15.014s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_mtc_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_mtc_demos -- -j4 -l4
+[15.026s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_mtc_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_mtc_demos
+[15.044s] -- Install configuration: "Release"
+[15.044s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/alternative_path_costs
+[15.167s] -- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/alternative_path_costs" to ""
+[15.169s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/cartesian
+[15.192s] -- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/cartesian" to ""
+[15.193s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/fallbacks_move_to
+[15.193s] -- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/fallbacks_move_to" to ""
+[15.193s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/include/mycobot_mtc_demos
+[15.202s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/include/mycobot_mtc_demos/ik_clearance_cost_parameters.hpp
+[15.204s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/ik_clearance_cost
+[15.222s] -- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/ik_clearance_cost" to ""
+[15.223s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/modular
+[15.246s] -- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/modular" to ""
+[15.246s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/launch
+[15.247s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/launch/mtc_demos.launch.py
+[15.249s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/rviz
+[15.258s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/rviz/mtc_demos.rviz
+[15.259s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/ament_index/resource_index/package_run_dependencies/mycobot_mtc_demos
+[15.279s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/ament_index/resource_index/parent_prefix_path/mycobot_mtc_demos
+[15.281s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/environment/ament_prefix_path.sh
+[15.294s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/environment/ament_prefix_path.dsv
+[15.301s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/environment/path.sh
+[15.302s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/environment/path.dsv
+[15.303s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/local_setup.bash
+[15.311s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/local_setup.sh
+[15.312s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/local_setup.zsh
+[15.313s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/local_setup.dsv
+[15.314s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/package.dsv
+[15.316s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/ament_index/resource_index/packages/mycobot_mtc_demos
+[15.316s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/cmake/mycobot_mtc_demosConfig.cmake
+[15.322s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/cmake/mycobot_mtc_demosConfig-version.cmake
+[15.323s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/package.xml
+[15.327s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_mtc_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_mtc_demos

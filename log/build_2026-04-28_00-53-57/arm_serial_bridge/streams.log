@@ -1,0 +1,24 @@
+[2.503s] Invoking command in '/home/ibrahim/ros2_ws/src/arm_serial_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ibrahim/ros2_ws/build/arm_serial_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_serial_bridge build --build-base /home/ibrahim/ros2_ws/build/arm_serial_bridge/build install --record /home/ibrahim/ros2_ws/build/arm_serial_bridge/install.log --single-version-externally-managed
+[2.849s] running egg_info
+[2.884s] writing ../../build/arm_serial_bridge/arm_serial_bridge.egg-info/PKG-INFO
+[2.884s] writing dependency_links to ../../build/arm_serial_bridge/arm_serial_bridge.egg-info/dependency_links.txt
+[2.887s] writing entry points to ../../build/arm_serial_bridge/arm_serial_bridge.egg-info/entry_points.txt
+[2.887s] writing requirements to ../../build/arm_serial_bridge/arm_serial_bridge.egg-info/requires.txt
+[2.887s] writing top-level names to ../../build/arm_serial_bridge/arm_serial_bridge.egg-info/top_level.txt
+[2.952s] reading manifest file '../../build/arm_serial_bridge/arm_serial_bridge.egg-info/SOURCES.txt'
+[2.953s] writing manifest file '../../build/arm_serial_bridge/arm_serial_bridge.egg-info/SOURCES.txt'
+[2.955s] running build
+[2.955s] running build_py
+[2.956s] copying arm_serial_bridge/send_angles.py -> /home/ibrahim/ros2_ws/build/arm_serial_bridge/build/lib/arm_serial_bridge
+[2.956s] running install
+[2.961s] running install_lib
+[2.985s] copying /home/ibrahim/ros2_ws/build/arm_serial_bridge/build/lib/arm_serial_bridge/send_angles.py -> /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages/arm_serial_bridge
+[2.986s] byte-compiling /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages/arm_serial_bridge/send_angles.py to send_angles.cpython-312.pyc
+[2.987s] running install_egg_info
+[3.016s] removing '/home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages/arm_serial_bridge-0.0.0-py3.12.egg-info' (and everything under it)
+[3.016s] Copying ../../build/arm_serial_bridge/arm_serial_bridge.egg-info to /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages/arm_serial_bridge-0.0.0-py3.12.egg-info
+[3.016s] running install_scripts
+[3.168s] Installing joint_to_serial script to /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/arm_serial_bridge
+[3.168s] Installing send_angles script to /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/arm_serial_bridge
+[3.168s] writing list of installed files to '/home/ibrahim/ros2_ws/build/arm_serial_bridge/install.log'
+[3.240s] Invoked command in '/home/ibrahim/ros2_ws/src/arm_serial_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ibrahim/ros2_ws/build/arm_serial_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_serial_bridge build --build-base /home/ibrahim/ros2_ws/build/arm_serial_bridge/build install --record /home/ibrahim/ros2_ws/build/arm_serial_bridge/install.log --single-version-externally-managed

@@ -1,0 +1,87 @@
+[0.053s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/mycobot_description:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_moveit_config -- -j4 -l4
+[0.469s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.584s] -- Found moveit_ros_planning_interface: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[0.602s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[0.672s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.682s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.720s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.161s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.194s] -- Found parameter_traits: 0.6.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.239s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.253s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.356s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.460s] -- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.479s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[1.548s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.703s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[1.764s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[1.799s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[1.836s] -- Found moveit_kinematics: 2.12.4 (/opt/ros/jazzy/share/moveit_kinematics/cmake)
+[1.884s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: program_options system 
+[1.884s] -- Found moveit_planners_ompl: 2.12.4 (/opt/ros/jazzy/share/moveit_planners_ompl/cmake)
+[1.884s] -- Found moveit_ros_visualization: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_visualization/cmake)
+[1.888s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread date_time system filesystem 
+[1.949s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.952s] -- Found OGRE
+[1.953s] --   static     : OFF
+[1.953s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.953s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.953s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.953s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.954s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[1.954s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.954s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[1.954s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.954s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.954s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.954s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.179s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[2.341s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/jazzy/share/rviz_visual_tools/cmake)
+[2.355s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.509s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.509s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.510s] -- Added test 'lint_cmake' to check CMake code style
+[2.510s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.511s] -- Added test 'xmllint' to check XML markup files
+[2.512s] -- Configuring done (2.3s)
+[2.523s] -- Generating done (0.0s)
+[2.529s] -- Build files have been written to: /home/ibrahim/ros2_ws/build/mycobot_moveit_config
+[2.592s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/mycobot_description:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_moveit_config -- -j4 -l4
+[2.607s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/mycobot_description:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_moveit_config
+[2.621s] -- Install configuration: ""
+[2.621s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config
+[2.623s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280
+[2.624s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280/ros2_controllers.yaml
+[2.625s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280/mycobot_280.srdf
+[2.626s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280/pilz_cartesian_limits.yaml
+[2.626s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280/moveit_controllers.yaml
+[2.626s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280/initial_positions.yaml
+[2.626s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280/joint_limits.yaml
+[2.627s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280/ros2_controllers_template.yaml
+[2.627s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280/kinematics.yaml
+[2.627s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/stomp_planning.yaml
+[2.628s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/ompl_planning.yaml
+[2.628s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/pilz_industrial_motion_planner_planning.yaml
+[2.629s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch
+[2.630s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/move_group.launch.py
+[2.630s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/load_ros2_controllers.launch.py
+[2.630s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/rviz
+[2.631s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/rviz/move_group.rviz
+[2.631s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/.setup_assistant
+[2.632s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/ament_index/resource_index/package_run_dependencies/mycobot_moveit_config
+[2.633s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/ament_index/resource_index/parent_prefix_path/mycobot_moveit_config
+[2.634s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/ament_prefix_path.sh
+[2.634s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/ament_prefix_path.dsv
+[2.635s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/path.sh
+[2.636s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/path.dsv
+[2.636s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.bash
+[2.636s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.sh
+[2.636s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.zsh
+[2.636s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.dsv
+[2.636s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/package.dsv
+[2.637s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/ament_index/resource_index/packages/mycobot_moveit_config
+[2.639s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/cmake/mycobot_moveit_configConfig.cmake
+[2.639s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/cmake/mycobot_moveit_configConfig-version.cmake
+[2.639s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/package.xml
+[2.649s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/mycobot_description:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_moveit_config

@@ -1,0 +1,18 @@
+[0.207s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_bringup -- -j4 -l4
+[1.523s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.398s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.744s] -- Added test 'lint_cmake' to check CMake code style
+[2.754s] -- Added test 'xmllint' to check XML markup files
+[2.768s] -- Configuring done (1.5s)
+[2.907s] -- Generating done (0.1s)
+[2.912s] -- Build files have been written to: /home/ibrahim/ros2_ws/build/mycobot_bringup
+[2.952s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_bringup -- -j4 -l4
+[2.972s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_bringup
+[2.986s] -- Install configuration: ""
+[2.986s] [31mCMake Error at cmake_install.cmake:46 (file):
+[2.986s]   file INSTALL cannot find
+[2.986s]   "/home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_bringup/scripts": No such
+[2.987s]   file or directory.
+[2.987s] 
+[2.987s] [0m
+[2.995s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_bringup' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_bringup

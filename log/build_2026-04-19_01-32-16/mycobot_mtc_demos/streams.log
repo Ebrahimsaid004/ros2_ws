@@ -1,0 +1,14 @@
+[0.058s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_mtc_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_mtc_demos -- -j4 -l4
+[0.381s] [ 16%] Built target mycobot_mtc_demos_alternative_path_costs
+[0.435s] [ 33%] Built target ik_clearance_cost_parameters
+[0.664s] [ 50%] Built target mycobot_mtc_demos_modular
+[0.740s] [ 66%] Built target mycobot_mtc_demos_ik_clearance_cost
+[0.940s] [ 75%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/src/fallbacks_move_to.cpp.o[0m
+[8.817s] [01m[K/home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/fallbacks_move_to.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[8.817s] [01m[K/home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/fallbacks_move_to.cpp:93:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct moveit::core::CartesianPrecision[m[K’ has no member named ‘[01m[Kvalue[m[K’
+[8.817s]    93 |   precision.[01;31m[Kvalue[m[K = 2.0;
+[8.817s]       |             [01;31m[K^~~~~[m[K
+[13.872s] gmake[2]: *** [CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/build.make:76: CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/src/fallbacks_move_to.cpp.o] Error 1
+[13.874s] gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/all] Error 2
+[13.874s] gmake: *** [Makefile:146: all] Error 2
+[13.886s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_mtc_demos' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_mtc_demos -- -j4 -l4

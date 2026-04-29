@@ -1,0 +1,91 @@
+[0.060s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_mtc_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_mtc_demos -- -j4 -l4
+[0.144s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.553s] -- Found generate_parameter_library: 0.6.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[0.561s] -- Found parameter_traits: 0.6.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[0.583s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.600s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.609s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.623s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.743s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.744s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.834s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.945s] -- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.008s] -- Found moveit_common: 2.12.4 (/opt/ros/jazzy/share/moveit_common/cmake)
+[1.161s] -- Found moveit_core: 2.12.4 (/opt/ros/jazzy/share/moveit_core/cmake)
+[1.179s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.231s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[1.382s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.751s] -- Found moveit_ros_planning: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning/cmake)
+[1.754s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[1.799s] -- Found moveit_ros_planning_interface: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[1.804s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[1.821s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[1.849s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[1.913s] -- Found moveit_task_constructor_core: 0.1.4 (/opt/ros/jazzy/share/moveit_task_constructor_core/cmake)
+[2.188s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.215s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.216s] -- Configured cppcheck include dirs: 
+[2.216s] -- Configured cppcheck exclude dirs and/or files: 
+[2.217s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.217s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.217s] -- Added test 'lint_cmake' to check CMake code style
+[2.218s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.219s] -- Added test 'uncrustify' to check C / C++ code style
+[2.219s] -- Configured uncrustify additional arguments: 
+[2.219s] -- Added test 'xmllint' to check XML markup files
+[2.224s] -- Configuring done (2.1s)
+[2.398s] -- Generating done (0.1s)
+[2.428s] -- Build files have been written to: /home/ibrahim/ros2_ws/build/mycobot_mtc_demos
+[2.510s] [  8%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/ibrahim/ros2_ws/build/mycobot_mtc_demos/include/mycobot_mtc_demos/ik_clearance_cost_parameters.hpp /home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/ik_clearance_cost_parameters.yaml `[0m
+[2.585s] [ 16%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_alternative_path_costs.dir/src/alternative_path_costs.cpp.o[0m
+[2.618s] [ 25%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_cartesian.dir/src/cartesian.cpp.o[0m
+[2.642s] [ 33%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/src/fallbacks_move_to.cpp.o[0m
+[4.104s] [ 41%] [34m[1mCreating deprecated header file /home/ibrahim/ros2_ws/build/mycobot_mtc_demos/include/ik_clearance_cost_parameters.hpp[0m
+[4.177s] [ 41%] Built target ik_clearance_cost_parameters
+[4.366s] [ 50%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_modular.dir/src/modular.cpp.o[0m
+[44.128s] [ 58%] [32m[1mLinking CXX executable cartesian[0m
+[45.670s] [ 58%] Built target mycobot_mtc_demos_cartesian
+[45.826s] [ 66%] [32m[1mLinking CXX executable modular[0m
+[46.485s] [ 66%] Built target mycobot_mtc_demos_modular
+[46.756s] [ 75%] [32m[1mLinking CXX executable fallbacks_move_to[0m
+[47.328s] [ 75%] Built target mycobot_mtc_demos_fallbacks_move_to
+[47.471s] [ 83%] [32m[1mLinking CXX executable alternative_path_costs[0m
+[47.936s] [ 83%] Built target mycobot_mtc_demos_alternative_path_costs
+[48.188s] [ 91%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_ik_clearance_cost.dir/src/ik_clearance_cost.cpp.o[0m
+[60.742s] [100%] [32m[1mLinking CXX executable ik_clearance_cost[0m
+[61.386s] [100%] Built target mycobot_mtc_demos_ik_clearance_cost
+[61.430s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_mtc_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_mtc_demos -- -j4 -l4
+[61.431s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_mtc_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_mtc_demos
+[61.443s] -- Install configuration: "Release"
+[61.445s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/alternative_path_costs
+[61.447s] -- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/alternative_path_costs" to ""
+[61.448s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/cartesian
+[61.449s] -- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/cartesian" to ""
+[61.452s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/fallbacks_move_to
+[61.454s] -- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/fallbacks_move_to" to ""
+[61.454s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/include/mycobot_mtc_demos
+[61.454s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/include/mycobot_mtc_demos/ik_clearance_cost_parameters.hpp
+[61.464s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/ik_clearance_cost
+[61.465s] -- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/ik_clearance_cost" to ""
+[61.465s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/modular
+[61.465s] -- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/modular" to ""
+[61.465s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/launch
+[61.465s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/launch/mtc_demos.launch.py
+[61.465s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/rviz
+[61.465s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/rviz/mtc_demos.rviz
+[61.465s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/ament_index/resource_index/package_run_dependencies/mycobot_mtc_demos
+[61.465s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/ament_index/resource_index/parent_prefix_path/mycobot_mtc_demos
+[61.466s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/environment/ament_prefix_path.sh
+[61.466s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/environment/ament_prefix_path.dsv
+[61.466s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/environment/path.sh
+[61.466s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/environment/path.dsv
+[61.466s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/local_setup.bash
+[61.466s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/local_setup.sh
+[61.466s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/local_setup.zsh
+[61.466s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/local_setup.dsv
+[61.466s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/package.dsv
+[61.544s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/ament_index/resource_index/packages/mycobot_mtc_demos
+[61.544s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/cmake/mycobot_mtc_demosConfig.cmake
+[61.544s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/cmake/mycobot_mtc_demosConfig-version.cmake
+[61.544s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/package.xml
+[61.549s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_mtc_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_mtc_demos

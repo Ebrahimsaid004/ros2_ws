@@ -1,0 +1,39 @@
+[1.927s] Invoking command in '/home/ibrahim/ros2_ws/src/arm_serial_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/ibrahim/ros2_ws/build/arm_serial_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_serial_bridge build --build-base /home/ibrahim/ros2_ws/build/arm_serial_bridge/build install --record /home/ibrahim/ros2_ws/build/arm_serial_bridge/install.log --single-version-externally-managed
+[2.356s] running egg_info
+[2.357s] creating ../../build/arm_serial_bridge/arm_serial_bridge.egg-info
+[2.404s] writing ../../build/arm_serial_bridge/arm_serial_bridge.egg-info/PKG-INFO
+[2.405s] writing dependency_links to ../../build/arm_serial_bridge/arm_serial_bridge.egg-info/dependency_links.txt
+[2.405s] writing entry points to ../../build/arm_serial_bridge/arm_serial_bridge.egg-info/entry_points.txt
+[2.405s] writing requirements to ../../build/arm_serial_bridge/arm_serial_bridge.egg-info/requires.txt
+[2.405s] writing top-level names to ../../build/arm_serial_bridge/arm_serial_bridge.egg-info/top_level.txt
+[2.405s] writing manifest file '../../build/arm_serial_bridge/arm_serial_bridge.egg-info/SOURCES.txt'
+[2.468s] reading manifest file '../../build/arm_serial_bridge/arm_serial_bridge.egg-info/SOURCES.txt'
+[2.470s] writing manifest file '../../build/arm_serial_bridge/arm_serial_bridge.egg-info/SOURCES.txt'
+[2.473s] running build
+[2.473s] running build_py
+[2.473s] creating /home/ibrahim/ros2_ws/build/arm_serial_bridge/build
+[2.473s] creating /home/ibrahim/ros2_ws/build/arm_serial_bridge/build/lib
+[2.473s] creating /home/ibrahim/ros2_ws/build/arm_serial_bridge/build/lib/arm_serial_bridge
+[2.473s] copying arm_serial_bridge/auto_move.py -> /home/ibrahim/ros2_ws/build/arm_serial_bridge/build/lib/arm_serial_bridge
+[2.683s] copying arm_serial_bridge/moveit_auto.py -> /home/ibrahim/ros2_ws/build/arm_serial_bridge/build/lib/arm_serial_bridge
+[2.898s] copying arm_serial_bridge/joint_to_serial.py -> /home/ibrahim/ros2_ws/build/arm_serial_bridge/build/lib/arm_serial_bridge
+[3.149s] copying arm_serial_bridge/__init__.py -> /home/ibrahim/ros2_ws/build/arm_serial_bridge/build/lib/arm_serial_bridge
+[3.150s] running install
+[3.165s] running install_lib
+[3.221s] creating /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages/arm_serial_bridge
+[3.221s] copying /home/ibrahim/ros2_ws/build/arm_serial_bridge/build/lib/arm_serial_bridge/auto_move.py -> /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages/arm_serial_bridge
+[3.222s] copying /home/ibrahim/ros2_ws/build/arm_serial_bridge/build/lib/arm_serial_bridge/moveit_auto.py -> /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages/arm_serial_bridge
+[3.224s] copying /home/ibrahim/ros2_ws/build/arm_serial_bridge/build/lib/arm_serial_bridge/joint_to_serial.py -> /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages/arm_serial_bridge
+[3.224s] copying /home/ibrahim/ros2_ws/build/arm_serial_bridge/build/lib/arm_serial_bridge/__init__.py -> /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages/arm_serial_bridge
+[3.224s] byte-compiling /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages/arm_serial_bridge/auto_move.py to auto_move.cpython-312.pyc
+[3.225s] byte-compiling /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages/arm_serial_bridge/moveit_auto.py to moveit_auto.cpython-312.pyc
+[3.226s] byte-compiling /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages/arm_serial_bridge/joint_to_serial.py to joint_to_serial.cpython-312.pyc
+[3.227s] byte-compiling /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages/arm_serial_bridge/__init__.py to __init__.cpython-312.pyc
+[3.227s] running install_egg_info
+[3.259s] Copying ../../build/arm_serial_bridge/arm_serial_bridge.egg-info to /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages/arm_serial_bridge-0.0.0-py3.12.egg-info
+[3.265s] running install_scripts
+[3.443s] Installing auto_move script to /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/arm_serial_bridge
+[3.443s] Installing joint_to_serial script to /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/arm_serial_bridge
+[3.443s] Installing moveit_auto script to /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/arm_serial_bridge
+[3.444s] writing list of installed files to '/home/ibrahim/ros2_ws/build/arm_serial_bridge/install.log'
+[3.506s] Invoked command in '/home/ibrahim/ros2_ws/src/arm_serial_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/ibrahim/ros2_ws/build/arm_serial_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_serial_bridge build --build-base /home/ibrahim/ros2_ws/build/arm_serial_bridge/build install --record /home/ibrahim/ros2_ws/build/arm_serial_bridge/install.log --single-version-externally-managed

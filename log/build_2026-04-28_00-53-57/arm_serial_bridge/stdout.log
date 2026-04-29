@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/arm_serial_bridge/arm_serial_bridge.egg-info/PKG-INFO
+writing dependency_links to ../../build/arm_serial_bridge/arm_serial_bridge.egg-info/dependency_links.txt
+writing entry points to ../../build/arm_serial_bridge/arm_serial_bridge.egg-info/entry_points.txt
+writing requirements to ../../build/arm_serial_bridge/arm_serial_bridge.egg-info/requires.txt
+writing top-level names to ../../build/arm_serial_bridge/arm_serial_bridge.egg-info/top_level.txt
+reading manifest file '../../build/arm_serial_bridge/arm_serial_bridge.egg-info/SOURCES.txt'
+writing manifest file '../../build/arm_serial_bridge/arm_serial_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+copying arm_serial_bridge/send_angles.py -> /home/ibrahim/ros2_ws/build/arm_serial_bridge/build/lib/arm_serial_bridge
+running install
+running install_lib
+copying /home/ibrahim/ros2_ws/build/arm_serial_bridge/build/lib/arm_serial_bridge/send_angles.py -> /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages/arm_serial_bridge
+byte-compiling /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages/arm_serial_bridge/send_angles.py to send_angles.cpython-312.pyc
+running install_egg_info
+removing '/home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages/arm_serial_bridge-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/arm_serial_bridge/arm_serial_bridge.egg-info to /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/python3.12/site-packages/arm_serial_bridge-0.0.0-py3.12.egg-info
+running install_scripts
+Installing joint_to_serial script to /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/arm_serial_bridge
+Installing send_angles script to /home/ibrahim/ros2_ws/install/arm_serial_bridge/lib/arm_serial_bridge
+writing list of installed files to '/home/ibrahim/ros2_ws/build/arm_serial_bridge/install.log'

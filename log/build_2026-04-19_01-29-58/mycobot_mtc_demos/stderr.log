@@ -1,0 +1,14 @@
+[01m[K/home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/fallbacks_move_to.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/fallbacks_move_to.cpp:92:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst moveit::core::CartesianPrecision&[m[K’
+   92 |   cartesian->setPrecision([01;31m[K2.0[m[K);
+      |                           [01;31m[K^~~[m[K
+      |                           [01;31m[K|[m[K
+      |                           [01;31m[Kdouble[m[K
+In file included from [01m[K/home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/fallbacks_move_to.cpp:23[m[K:
+[01m[K/opt/ros/jazzy/include/moveit/task_constructor/solvers/cartesian_path.h:61:67:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid moveit::task_constructor::solvers::CartesianPath::[01;32m[KsetPrecision[m[K(const moveit::core::CartesianPrecision&)[m[K’
+   61 |         void setPrecision([01;36m[Kconst moveit::core::CartesianPrecision& precision[m[K) { setProperty("precision", precision); }
+      |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/build.make:76: CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/src/fallbacks_move_to.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

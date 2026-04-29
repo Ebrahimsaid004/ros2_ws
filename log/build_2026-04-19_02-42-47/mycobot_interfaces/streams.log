@@ -1,0 +1,129 @@
+[0.217s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /home/ibrahim/ros2_env/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_interfaces -- -j4 -l4
+[0.922s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.957s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.124s] -- Found moveit_msgs: 2.6.0 (/opt/ros/jazzy/share/moveit_msgs/cmake)
+[1.472s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.492s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.515s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.541s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.099s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.308s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.349s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.413s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.414s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.538s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.506s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.602s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.946s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.962s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.351s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.516s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.595s] -- Added test 'lint_cmake' to check CMake code style
+[5.596s] -- Added test 'xmllint' to check XML markup files
+[5.616s] -- Configuring done (4.7s)
+[6.559s] -- Generating done (0.9s)
+[6.620s] -- Build files have been written to: /home/ibrahim/ros2_ws/build/mycobot_interfaces
+[6.731s] [  2%] Built target mycobot_interfaces__rosidl_generator_type_description
+[6.803s] [  5%] Built target mycobot_interfaces__cpp
+[6.873s] [ 20%] Built target mycobot_interfaces__rosidl_generator_c
+[6.941s] [ 20%] Built target ament_cmake_python_copy_mycobot_interfaces
+[6.947s] [ 29%] Built target mycobot_interfaces__rosidl_typesupport_cpp
+[6.952s] [ 38%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_c
+[6.952s] [ 47%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.995s] [ 55%] Built target mycobot_interfaces__rosidl_typesupport_introspection_c
+[7.009s] [ 64%] Built target mycobot_interfaces__rosidl_typesupport_c
+[7.017s] [ 73%] Built target mycobot_interfaces__rosidl_typesupport_introspection_cpp
+[7.067s] [ 73%] Built target mycobot_interfaces
+[7.131s] [ 76%] Built target mycobot_interfaces__py
+[7.207s] [ 82%] Built target mycobot_interfaces__rosidl_generator_py
+[7.283s] [ 88%] Built target mycobot_interfaces_s__rosidl_typesupport_fastrtps_c
+[7.295s] [ 94%] Built target mycobot_interfaces_s__rosidl_typesupport_c
+[7.319s] [100%] Built target mycobot_interfaces_s__rosidl_typesupport_introspection_c
+[7.377s] running egg_info
+[7.399s] writing mycobot_interfaces.egg-info/PKG-INFO
+[7.400s] writing dependency_links to mycobot_interfaces.egg-info/dependency_links.txt
+[7.400s] writing top-level names to mycobot_interfaces.egg-info/top_level.txt
+[7.465s] reading manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+[7.521s] writing manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+[7.567s] [100%] Built target ament_cmake_python_build_mycobot_interfaces_egg
+[7.591s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /home/ibrahim/ros2_env/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_interfaces -- -j4 -l4
+[7.596s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /home/ibrahim/ros2_env/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_interfaces
+[7.760s] -- Install configuration: ""
+[7.760s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/share/ament_index/resource_index/rosidl_interfaces/mycobot_interfaces
+[7.760s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetPlanningScene.json
+[7.760s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces
+[7.780s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv
+[7.795s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail
+[7.797s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_planning_scene__type_support.h
+[7.797s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_planning_scene__type_support.c
+[7.797s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_planning_scene__struct.h
+[7.797s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_planning_scene__description.c
+[7.797s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_planning_scene__functions.h
+[7.797s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_planning_scene__functions.c
+[7.797s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/get_planning_scene.h
+[7.797s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg
+[7.797s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.798s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/library_path.sh
+[7.798s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/library_path.dsv
+[7.798s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_generator_c.so
+[7.798s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces
+[7.823s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv
+[7.826s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail
+[7.827s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_planning_scene__rosidl_typesupport_fastrtps_c.h
+[7.829s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg
+[7.829s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.829s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.829s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces
+[7.853s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv
+[7.854s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail
+[7.855s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_planning_scene__struct.hpp
+[7.855s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_planning_scene__builder.hpp
+[7.855s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_planning_scene__type_support.hpp
+[7.855s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_planning_scene__traits.hpp
+[7.856s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/get_planning_scene.hpp
+[7.856s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg
+[7.856s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.856s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces
+[7.862s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv
+[7.882s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail
+[7.901s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/dds_fastrtps
+[7.901s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_planning_scene__rosidl_typesupport_fastrtps_cpp.hpp
+[7.901s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg
+[7.901s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.901s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.902s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces
+[7.902s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv
+[7.910s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail
+[7.910s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_planning_scene__rosidl_typesupport_introspection_c.h
+[7.910s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_planning_scene__type_support.c
+[7.910s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg
+[7.910s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.912s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_introspection_c.so
+[7.915s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_c.so
+[7.916s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces
+[7.916s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv
+[7.924s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail
+[7.937s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_planning_scene__rosidl_typesupport_introspection_cpp.hpp
+[7.938s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_planning_scene__type_support.cpp
+[7.938s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.938s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_cpp.so
+[7.939s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/pythonpath.sh
+[7.939s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/pythonpath.dsv
+[7.939s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces-0.0.0-py3.12.egg-info
+[7.939s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[7.939s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[7.939s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[7.940s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[7.940s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces
+[7.940s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.940s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv
+[7.940s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_get_planning_scene.py
+[7.941s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_get_planning_scene_s.c
+[7.941s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/__init__.py
+[7.941s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.941s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.941s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_c.so
+[7.941s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/__init__.py
+[7.941s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_c.c
+[7.941s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[8.143s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_interfaces' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /home/ibrahim/ros2_env/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_interfaces

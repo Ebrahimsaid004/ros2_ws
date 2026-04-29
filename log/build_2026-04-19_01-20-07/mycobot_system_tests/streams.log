@@ -1,0 +1,72 @@
+[0.015s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_system_tests -DCMAKE_INSTALL_PREFIX=/home/ibrahim/ros2_ws/install/mycobot_system_tests
+[0.117s] -- The C compiler identification is GNU 13.3.0
+[0.206s] -- The CXX compiler identification is GNU 13.3.0
+[0.257s] -- Detecting C compiler ABI info
+[0.433s] -- Detecting C compiler ABI info - done
+[0.440s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.441s] -- Detecting C compile features
+[0.442s] -- Detecting C compile features - done
+[0.465s] -- Detecting CXX compiler ABI info
+[0.638s] -- Detecting CXX compiler ABI info - done
+[0.658s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.658s] -- Detecting CXX compile features
+[0.658s] -- Detecting CXX compile features - done
+[0.666s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.845s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.007s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.079s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.101s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.128s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.276s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.282s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.479s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.509s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.539s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.625s] -- Found rclcpp_action: 28.1.16 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.682s] -- Found control_msgs: 5.7.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[1.824s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.999s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.999s] -- Configured cppcheck include dirs: 
+[1.999s] -- Configured cppcheck exclude dirs and/or files: 
+[1.999s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.999s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.005s] -- Added test 'lint_cmake' to check CMake code style
+[2.005s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.005s] -- Added test 'uncrustify' to check C / C++ code style
+[2.007s] -- Configured uncrustify additional arguments: 
+[2.007s] -- Added test 'xmllint' to check XML markup files
+[2.010s] -- Configuring done (2.0s)
+[2.083s] -- Generating done (0.0s)
+[2.101s] -- Build files have been written to: /home/ibrahim/ros2_ws/build/mycobot_system_tests
+[2.131s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_system_tests -DCMAKE_INSTALL_PREFIX=/home/ibrahim/ros2_ws/install/mycobot_system_tests
+[2.135s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_system_tests -- -j4 -l4
+[2.297s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_gripper_loop_controller.dir/src/arm_gripper_loop_controller.cpp.o[0m
+[11.415s] [100%] [32m[1mLinking CXX executable arm_gripper_loop_controller[0m
+[12.178s] [100%] Built target arm_gripper_loop_controller
+[12.205s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_system_tests -- -j4 -l4
+[12.207s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_system_tests
+[12.217s] -- Install configuration: ""
+[12.220s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/scripts
+[12.221s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/scripts/arm_gripper_loop_controller.py
+[12.294s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/src
+[12.294s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/src/arm_gripper_loop_controller.cpp
+[12.295s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/lib/mycobot_system_tests/arm_gripper_loop_controller
+[12.300s] -- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_system_tests/lib/mycobot_system_tests/arm_gripper_loop_controller" to ""
+[12.300s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/lib/mycobot_system_tests/arm_gripper_loop_controller.py
+[12.301s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/ament_index/resource_index/package_run_dependencies/mycobot_system_tests
+[12.301s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/ament_index/resource_index/parent_prefix_path/mycobot_system_tests
+[12.302s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/environment/ament_prefix_path.sh
+[12.302s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/environment/ament_prefix_path.dsv
+[12.303s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/environment/path.sh
+[12.303s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/environment/path.dsv
+[12.304s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.bash
+[12.304s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.sh
+[12.304s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.zsh
+[12.305s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.dsv
+[12.309s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/package.dsv
+[12.309s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/ament_index/resource_index/packages/mycobot_system_tests
+[12.310s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/cmake/mycobot_system_testsConfig.cmake
+[12.310s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/cmake/mycobot_system_testsConfig-version.cmake
+[12.310s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/package.xml
+[12.310s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_system_tests

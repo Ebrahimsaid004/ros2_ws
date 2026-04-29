@@ -1,0 +1,68 @@
+[ 12%] Built target cluster_extraction
+[ 25%] Built target object_segmentation
+[ 37%] Built target plane_segmentation
+[ 50%] Built target get_planning_scene_client_node
+[ 62%] Built target normals_curvature_and_rsd_estimation
+[ 75%] Built target get_planning_scene_client
+[ 81%] [32mBuilding CXX object CMakeFiles/get_planning_scene_server.dir/src/get_planning_scene_server.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable get_planning_scene_server[0m
+[ 87%] Built target get_planning_scene_server
+[100%] Built target mtc_node
+-- Install configuration: "Release"
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/mycobot_mtc_pick_place_demo/get_planning_scene_client_node
+-- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/mycobot_mtc_pick_place_demo/get_planning_scene_client_node" to ""
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/mycobot_mtc_pick_place_demo/get_planning_scene_server
+-- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/mycobot_mtc_pick_place_demo/get_planning_scene_server" to ""
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/mycobot_mtc_pick_place_demo/mtc_node
+-- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/mycobot_mtc_pick_place_demo/mtc_node" to ""
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libcluster_extraction.so
+-- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libcluster_extraction.so" to ""
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libget_planning_scene_client.so
+-- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libget_planning_scene_client.so" to ""
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libnormals_curvature_and_rsd_estimation.so
+-- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libnormals_curvature_and_rsd_estimation.so" to ""
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libobject_segmentation.so
+-- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libobject_segmentation.so" to ""
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libplane_segmentation.so
+-- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libplane_segmentation.so" to ""
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/config
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/config/get_planning_scene_server.yaml
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/config/mtc_node_params.yaml
+-- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/mycobot_mtc_pick_place_demo
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/mycobot_mtc_pick_place_demo/normals_curvature_and_rsd_estimation.h
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/mycobot_mtc_pick_place_demo/get_planning_scene_client.h
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/mycobot_mtc_pick_place_demo/plane_segmentation.h
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/mycobot_mtc_pick_place_demo/object_segmentation.h
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/mycobot_mtc_pick_place_demo/cluster_extraction.h
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/launch
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/launch/pick_place_demo.launch.py
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/launch/get_planning_scene_server.launch.py
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/launch/point_cloud_viewer.launch.py
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/rviz
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/rviz/point_cloud_viewer.rviz
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/scripts
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/scripts/robot.sh
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/scripts/pointcloud.sh
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/environment/library_path.sh
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/environment/library_path.dsv
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/ament_index/resource_index/package_run_dependencies/mycobot_mtc_pick_place_demo
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/ament_index/resource_index/parent_prefix_path/mycobot_mtc_pick_place_demo
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/environment/ament_prefix_path.sh
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/environment/ament_prefix_path.dsv
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/environment/path.sh
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/environment/path.dsv
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/local_setup.bash
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/local_setup.sh
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/local_setup.zsh
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/local_setup.dsv
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/package.dsv
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/ament_index/resource_index/packages/mycobot_mtc_pick_place_demo
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/cmake/export_mycobot_mtc_pick_place_demoExport.cmake
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/cmake/export_mycobot_mtc_pick_place_demoExport-release.cmake
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/cmake/mycobot_mtc_pick_place_demoConfig.cmake
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/cmake/mycobot_mtc_pick_place_demoConfig-version.cmake
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/package.xml

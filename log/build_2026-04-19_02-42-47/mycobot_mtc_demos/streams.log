@@ -1,0 +1,25 @@
+[0.060s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_mtc_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /home/ibrahim/ros2_env/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_mtc_demos -- -j4 -l4
+[0.189s] Traceback (most recent call last):
+[0.190s]   File "/home/ibrahim/ros2_env/bin/cmake", line 5, in <module>
+[0.191s]     from cmake import cmake
+[0.191s]   File "/home/ibrahim/ros2_env/lib/python3.12/site-packages/cmake/__init__.py", line 26, in <module>
+[0.200s]     cmake_files = distribution("cmake").files
+[0.201s]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.201s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 500, in files
+[0.229s]     return skip_missing_files(
+[0.229s]            ^^^^^^^^^^^^^^^^^^^
+[0.230s]   File "/usr/lib/python3.12/importlib/metadata/_functools.py", line 102, in wrapper
+[0.247s]     return func(param, *args, **kwargs)
+[0.247s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.247s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 498, in skip_missing_files
+[0.247s]     return list(filter(lambda path: path.locate().exists(), package_paths))
+[0.247s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.247s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 498, in <lambda>
+[0.247s]     return list(filter(lambda path: path.locate().exists(), package_paths))
+[0.247s]                                     ^^^^^^^^^^^^^^^^^^^^^^
+[0.247s]   File "/usr/lib/python3.12/pathlib.py", line 862, in exists
+[0.289s]     self.stat(follow_symlinks=follow_symlinks)
+[0.289s]   File "/usr/lib/python3.12/pathlib.py", line 842, in stat
+[0.289s]     return os.stat(self, follow_symlinks=follow_symlinks)
+[0.289s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.290s] KeyboardInterrupt

@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-20fad8b863915cc5f71f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mycobot_mtc_pick_place_demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cluster_extraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cluster_extraction-Release-465985b9fd3890cea871.json",
+					"name" : "cluster_extraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "get_planning_scene_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-get_planning_scene_client-Release-c9235f9aaf9b31764908.json",
+					"name" : "get_planning_scene_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "get_planning_scene_client_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-get_planning_scene_client_node-Release-3a51dddb63247b4e7061.json",
+					"name" : "get_planning_scene_client_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "get_planning_scene_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-get_planning_scene_server-Release-4c5cc2d5e5f051f5effe.json",
+					"name" : "get_planning_scene_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mtc_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mtc_node-Release-48a5cfdab39b07d0de22.json",
+					"name" : "mtc_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_mtc_pick_place_demo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_mtc_pick_place_demo_uninstall-Release-b028c368f8fa09710405.json",
+					"name" : "mycobot_mtc_pick_place_demo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "normals_curvature_and_rsd_estimation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-normals_curvature_and_rsd_estimation-Release-b994a7fd8d34f6daa419.json",
+					"name" : "normals_curvature_and_rsd_estimation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_segmentation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_segmentation-Release-5f84547f7b87ed0df58b.json",
+					"name" : "object_segmentation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plane_segmentation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plane_segmentation-Release-bba1d8b33b5b55f41061.json",
+					"name" : "plane_segmentation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-14efd259ddc6805fe764.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ibrahim/ros2_ws/build/mycobot_mtc_pick_place_demo",
+		"source" : "/home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

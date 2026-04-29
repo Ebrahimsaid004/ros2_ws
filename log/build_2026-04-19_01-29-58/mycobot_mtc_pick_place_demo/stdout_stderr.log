@@ -1,0 +1,16 @@
+[  6%] [32mBuilding CXX object CMakeFiles/get_planning_scene_client.dir/src/get_planning_scene_client.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/cluster_extraction.dir/src/cluster_extraction.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/normals_curvature_and_rsd_estimation.dir/src/normals_curvature_and_rsd_estimation.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/object_segmentation.dir/src/object_segmentation.cpp.o[0m
+[ 31%] [32m[1mLinking CXX shared library libget_planning_scene_client.so[0m
+[ 31%] Built target get_planning_scene_client
+[ 37%] [32m[1mLinking CXX shared library libcluster_extraction.so[0m
+[ 37%] Built target cluster_extraction
+[ 43%] [32m[1mLinking CXX shared library libnormals_curvature_and_rsd_estimation.so[0m
+[ 43%] Built target normals_curvature_and_rsd_estimation
+[ 50%] [32m[1mLinking CXX shared library libobject_segmentation.so[0m
+[ 50%] Built target object_segmentation
+[ 56%] [32mBuilding CXX object CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o[0m
+gmake[2]: *** [CMakeFiles/mtc_node.dir/build.make:76: CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:336: CMakeFiles/mtc_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

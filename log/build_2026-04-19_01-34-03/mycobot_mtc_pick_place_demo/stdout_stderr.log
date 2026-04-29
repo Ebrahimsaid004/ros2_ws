@@ -1,0 +1,17 @@
+[ 12%] Built target cluster_extraction
+[ 25%] Built target object_segmentation
+[ 31%] [32mBuilding CXX object CMakeFiles/plane_segmentation.dir/src/plane_segmentation.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library libplane_segmentation.so[0m
+[ 37%] Built target plane_segmentation
+[ 43%] [32mBuilding CXX object CMakeFiles/get_planning_scene_client_node.dir/src/get_planning_scene_client.cpp.o[0m
+[ 56%] Built target get_planning_scene_client
+[ 68%] Built target normals_curvature_and_rsd_estimation
+[ 75%] [32mBuilding CXX object CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/get_planning_scene_server.dir/src/get_planning_scene_server.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable get_planning_scene_client_node[0m
+[ 87%] Built target get_planning_scene_client_node
+[ 93%] [32m[1mLinking CXX executable mtc_node[0m
+[ 93%] Built target mtc_node
+gmake[2]: *** [CMakeFiles/get_planning_scene_server.dir/build.make:76: CMakeFiles/get_planning_scene_server.dir/src/get_planning_scene_server.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:310: CMakeFiles/get_planning_scene_server.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,37 @@
+[0.284s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_mtc_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_mtc_demos -- -j4 -l4
+[0.669s] [ 16%] Built target mycobot_mtc_demos_alternative_path_costs
+[0.682s] [ 33%] Built target mycobot_mtc_demos_cartesian
+[0.724s] [ 50%] Built target mycobot_mtc_demos_fallbacks_move_to
+[0.868s] [ 66%] Built target ik_clearance_cost_parameters
+[0.937s] [ 83%] Built target mycobot_mtc_demos_modular
+[1.016s] [100%] Built target mycobot_mtc_demos_ik_clearance_cost
+[1.071s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_mtc_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_mtc_demos -- -j4 -l4
+[1.072s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_mtc_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_mtc_demos
+[1.123s] -- Install configuration: "Release"
+[1.123s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/alternative_path_costs
+[1.123s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/cartesian
+[1.123s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/fallbacks_move_to
+[1.124s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/include/mycobot_mtc_demos
+[1.124s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/include/mycobot_mtc_demos/ik_clearance_cost_parameters.hpp
+[1.124s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/ik_clearance_cost
+[1.124s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/modular
+[1.124s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/launch
+[1.124s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/launch/mtc_demos.launch.py
+[1.124s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/rviz
+[1.125s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/rviz/mtc_demos.rviz
+[1.125s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/ament_index/resource_index/package_run_dependencies/mycobot_mtc_demos
+[1.125s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/ament_index/resource_index/parent_prefix_path/mycobot_mtc_demos
+[1.125s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/environment/ament_prefix_path.sh
+[1.125s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/environment/ament_prefix_path.dsv
+[1.125s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/environment/path.sh
+[1.125s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/environment/path.dsv
+[1.125s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/local_setup.bash
+[1.125s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/local_setup.sh
+[1.125s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/local_setup.zsh
+[1.125s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/local_setup.dsv
+[1.125s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/package.dsv
+[1.125s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/ament_index/resource_index/packages/mycobot_mtc_demos
+[1.125s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/cmake/mycobot_mtc_demosConfig.cmake
+[1.126s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/cmake/mycobot_mtc_demosConfig-version.cmake
+[1.126s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_mtc_demos/share/mycobot_mtc_demos/package.xml
+[1.182s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_mtc_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_mtc_demos

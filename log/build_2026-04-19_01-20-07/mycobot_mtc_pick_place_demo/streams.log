@@ -1,0 +1,173 @@
+[0.062s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_mtc_pick_place_demo': CMAKE_PREFIX_PATH=/home/ibrahim/ros2_ws/install/mycobot_interfaces:/home/ibrahim/ros2_ws/install/mycobot_ros2:/home/ibrahim/ros2_ws/install/mycobot_system_tests:/home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo:/home/ibrahim/ros2_ws/install/mycobot_mtc_demos:/home/ibrahim/ros2_ws/install/mycobot_moveit_demos:/home/ibrahim/ros2_ws/install/mycobot_moveit_config:/home/ibrahim/ros2_ws/install/mycobot_gazebo:/home/ibrahim/ros2_ws/install/mycobot_description:/home/ibrahim/ros2_ws/install/mycobot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ibrahim/ros2_ws/install/mycobot_interfaces/lib:/home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo -DCMAKE_INSTALL_PREFIX=/home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo
+[0.993s] -- The C compiler identification is GNU 13.3.0
+[1.048s] -- The CXX compiler identification is GNU 13.3.0
+[2.790s] -- Detecting C compiler ABI info
+[7.830s] -- Detecting C compiler ABI info - done
+[7.862s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.886s] -- Detecting C compile features
+[7.886s] -- Detecting C compile features - done
+[8.012s] -- Detecting CXX compiler ABI info
+[9.408s] -- Detecting CXX compiler ABI info - done
+[9.477s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.491s] -- Detecting CXX compile features
+[9.504s] -- Detecting CXX compile features - done
+[10.577s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[13.704s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[17.363s] -- Found generate_parameter_library: 0.6.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[17.502s] -- Found parameter_traits: 0.6.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[19.077s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[19.253s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[19.515s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[19.857s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[20.514s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[20.526s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[20.871s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[20.942s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[20.982s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[21.479s] -- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[21.664s] -- Found moveit_common: 2.12.4 (/opt/ros/jazzy/share/moveit_common/cmake)
+[22.204s] -- Found moveit_core: 2.12.4 (/opt/ros/jazzy/share/moveit_core/cmake)
+[22.929s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[23.198s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[23.779s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[23.780s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[25.211s] -- Found moveit_ros_planning: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning/cmake)
+[25.226s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[25.324s] -- Found moveit_ros_planning_interface: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[25.333s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[25.385s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[25.473s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[25.577s] -- Found moveit_task_constructor_core: 0.1.4 (/opt/ros/jazzy/share/moveit_task_constructor_core/cmake)
+[25.845s] -- Found mycobot_interfaces: 0.0.0 (/home/ibrahim/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake)
+[25.966s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+[25.967s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[25.967s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[25.968s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[25.968s]   cmake_policy command to set the policy and suppress this warning.
+[25.968s] 
+[25.968s]   CMake variable FLANN_ROOT is set to:
+[25.968s] 
+[25.968s]     /usr
+[25.968s] 
+[25.968s]   For compatibility, find_package is ignoring the variable, but code in a
+[25.968s]   .cmake module might still use it.
+[25.969s] Call Stack (most recent call first):
+[25.969s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[25.969s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[25.969s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[25.969s]   CMakeLists.txt:52 (find_package)
+[25.969s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[25.969s] [0m
+[25.988s] -- Found flann version 1.9.2
+[26.776s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[26.777s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[26.996s] -- Found Threads: TRUE  
+[27.016s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[27.030s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[28.043s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[28.043s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[28.067s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[28.141s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[28.236s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[28.641s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[29.188s] -- Found X11: /usr/include   
+[29.200s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[29.475s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[29.475s] -- Looking for gethostbyname
+[29.837s] -- Looking for gethostbyname - found
+[29.838s] -- Looking for connect
+[30.015s] -- Looking for connect - found
+[30.017s] -- Looking for remove
+[30.198s] -- Looking for remove - found
+[30.198s] -- Looking for shmat
+[30.355s] -- Looking for shmat - found
+[30.355s] -- Looking for IceConnectionNumber in ICE
+[30.568s] -- Looking for IceConnectionNumber in ICE - found
+[31.008s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") 
+[31.011s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[31.044s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.4") 
+[31.074s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.5") 
+[31.871s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[31.958s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.5.1")  
+[31.972s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.13.2") 
+[32.015s] -- Found utf8cpp: /usr/include/utf8cpp  
+[32.313s] -- Checking for module 'libusb-1.0'
+[32.363s] --   Found libusb-1.0, version 1.0.27
+[32.441s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[32.455s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[32.463s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[32.702s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[32.702s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[32.712s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[32.712s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[33.342s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[33.350s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[34.390s] -- Found Qhull version 8.0.2
+[34.934s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[35.662s] -- looking for PCL_COMMON
+[35.664s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[35.664s] -- looking for PCL_KDTREE
+[35.666s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[35.666s] -- looking for PCL_OCTREE
+[35.668s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[35.670s] -- looking for PCL_SEARCH
+[35.671s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[35.671s] -- looking for PCL_SAMPLE_CONSENSUS
+[35.672s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[35.672s] -- looking for PCL_FILTERS
+[35.673s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[35.674s] -- looking for PCL_2D
+[35.674s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[35.675s] -- looking for PCL_GEOMETRY
+[35.675s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[35.675s] -- looking for PCL_IO
+[35.677s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[35.677s] -- looking for PCL_FEATURES
+[35.679s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[35.679s] -- looking for PCL_ML
+[35.681s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[35.681s] -- looking for PCL_SEGMENTATION
+[35.683s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[35.683s] -- looking for PCL_VISUALIZATION
+[35.684s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[35.685s] -- looking for PCL_SURFACE
+[35.688s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[35.688s] -- looking for PCL_REGISTRATION
+[35.689s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[35.693s] -- looking for PCL_KEYPOINTS
+[35.693s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[35.694s] -- looking for PCL_TRACKING
+[35.696s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[35.697s] -- looking for PCL_RECOGNITION
+[35.697s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[35.698s] -- looking for PCL_STEREO
+[35.699s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[35.699s] -- looking for PCL_APPS
+[35.710s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[35.710s] -- looking for PCL_IN_HAND_SCANNER
+[35.710s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[35.710s] -- looking for PCL_MODELER
+[35.710s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[35.711s] -- looking for PCL_POINT_CLOUD_EDITOR
+[35.711s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[35.711s] -- looking for PCL_OUTOFCORE
+[35.711s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[35.711s] -- looking for PCL_PEOPLE
+[35.711s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[35.711s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[35.719s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[36.140s] -- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[37.381s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[37.718s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[37.722s] -- Configured cppcheck include dirs: /home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/include;$<BUILD_INTERFACE:/home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/include>
+[37.723s] -- Configured cppcheck exclude dirs and/or files: 
+[37.730s] -- Added test 'flake8' to check Python code syntax and style conventions
+[37.730s] -- Configured 'flake8' exclude dirs and/or files: 
+[37.741s] -- Added test 'lint_cmake' to check CMake code style
+[37.742s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[37.745s] -- Added test 'uncrustify' to check C / C++ code style
+[37.746s] -- Configured uncrustify additional arguments: 
+[37.756s] -- Added test 'xmllint' to check XML markup files
+[37.785s] -- Configuring done (37.6s)
+[39.169s] -- Generating done (1.2s)
+[39.251s] -- Build files have been written to: /home/ibrahim/ros2_ws/build/mycobot_mtc_pick_place_demo

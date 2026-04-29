@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/get_planning_scene_server.dir/build.make:76: CMakeFiles/get_planning_scene_server.dir/src/get_planning_scene_server.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:310: CMakeFiles/get_planning_scene_server.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,27 @@
+[0.208s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_system_tests -- -j4 -l4
+[1.007s] [100%] Built target arm_gripper_loop_controller
+[1.802s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_system_tests -- -j4 -l4
+[1.969s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_system_tests
+[2.195s] -- Install configuration: ""
+[2.195s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/scripts
+[2.195s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/scripts/arm_gripper_loop_controller.py
+[2.197s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/src
+[2.197s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/src/arm_gripper_loop_controller.cpp
+[2.199s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/lib/mycobot_system_tests/arm_gripper_loop_controller
+[2.202s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/lib/mycobot_system_tests/arm_gripper_loop_controller.py
+[2.202s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/ament_index/resource_index/package_run_dependencies/mycobot_system_tests
+[2.202s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/ament_index/resource_index/parent_prefix_path/mycobot_system_tests
+[2.202s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/environment/ament_prefix_path.sh
+[2.202s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/environment/ament_prefix_path.dsv
+[2.202s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/environment/path.sh
+[2.203s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/environment/path.dsv
+[2.203s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.bash
+[2.203s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.sh
+[2.203s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.zsh
+[2.203s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.dsv
+[2.203s] -- Installing: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/package.dsv
+[2.275s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/ament_index/resource_index/packages/mycobot_system_tests
+[2.276s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/cmake/mycobot_system_testsConfig.cmake
+[2.276s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/cmake/mycobot_system_testsConfig-version.cmake
+[2.277s] -- Up-to-date: /home/ibrahim/ros2_ws/install/mycobot_system_tests/share/mycobot_system_tests/package.xml
+[2.302s] Invoked command in '/home/ibrahim/ros2_ws/build/mycobot_system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ibrahim/ros2_ws/build/mycobot_system_tests

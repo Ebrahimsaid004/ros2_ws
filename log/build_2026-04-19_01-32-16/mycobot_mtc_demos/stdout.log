@@ -1,0 +1,5 @@
+[ 16%] Built target mycobot_mtc_demos_alternative_path_costs
+[ 33%] Built target ik_clearance_cost_parameters
+[ 50%] Built target mycobot_mtc_demos_modular
+[ 66%] Built target mycobot_mtc_demos_ik_clearance_cost
+[ 75%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/src/fallbacks_move_to.cpp.o[0m

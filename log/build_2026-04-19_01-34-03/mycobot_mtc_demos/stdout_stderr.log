@@ -1,0 +1,22 @@
+[ 16%] Built target mycobot_mtc_demos_alternative_path_costs
+[ 33%] Built target ik_clearance_cost_parameters
+[ 50%] Built target mycobot_mtc_demos_modular
+[ 66%] Built target mycobot_mtc_demos_ik_clearance_cost
+[ 75%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/src/fallbacks_move_to.cpp.o[0m
+[01m[K/home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/fallbacks_move_to.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/fallbacks_move_to.cpp:92:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::core::CartesianPrecision::CartesianPrecision(double)[m[K’
+   92 |   cartesian->setPrecision(moveit::core::CartesianPrecision(2.0[01;31m[K)[m[K);
+      |                                                               [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/jazzy/include/moveit/task_constructor/solvers/cartesian_path.h:42[m[K,
+                 from [01m[K/home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/fallbacks_move_to.cpp:23[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp:48:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr moveit::core::CartesianPrecision::[01;32m[KCartesianPrecision[m[K()[m[K’
+   48 | struct [01;36m[KCartesianPrecision[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp:48:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp:48:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr moveit::core::CartesianPrecision::[01;32m[KCartesianPrecision[m[K(const moveit::core::CartesianPrecision&)[m[K’
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp:48:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst moveit::core::CartesianPrecision&[m[K’
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp:48:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr moveit::core::CartesianPrecision::[01;32m[KCartesianPrecision[m[K(moveit::core::CartesianPrecision&&)[m[K’
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp:48:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kmoveit::core::CartesianPrecision&&[m[K’
+gmake[2]: *** [CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/build.make:76: CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/src/fallbacks_move_to.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

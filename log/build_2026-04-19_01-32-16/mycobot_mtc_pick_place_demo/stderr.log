@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/plane_segmentation.dir/build.make:76: CMakeFiles/plane_segmentation.dir/src/plane_segmentation.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/plane_segmentation.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

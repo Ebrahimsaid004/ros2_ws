@@ -1,0 +1,109 @@
+[0.192s] Invoking command in '/home/ibrahim/ros2_ws/build/mycobot_mtc_pick_place_demo': CMAKE_PREFIX_PATH=/home/ibrahim/ros2_ws/install/mycobot_interfaces:/home/ibrahim/ros2_ws/install/mycobot_ros2:/home/ibrahim/ros2_ws/install/mycobot_system_tests:/home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo:/home/ibrahim/ros2_ws/install/mycobot_mtc_demos:/home/ibrahim/ros2_ws/install/mycobot_moveit_demos:/home/ibrahim/ros2_ws/install/mycobot_moveit_config:/home/ibrahim/ros2_ws/install/mycobot_gazebo:/home/ibrahim/ros2_ws/install/mycobot_description:/home/ibrahim/ros2_ws/install/mycobot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ibrahim/ros2_ws/install/arm_serial_bridge:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ibrahim/ros2_ws/install/mycobot_interfaces/lib:/home/ibrahim/ros2_ws/install/mycobot_mtc_pick_place_demo/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ibrahim/ros2_ws/build/mycobot_mtc_pick_place_demo -- -j4 -l4
+[0.536s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.108s] -- Found generate_parameter_library: 0.6.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[1.109s] -- Found parameter_traits: 0.6.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.195s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.224s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.255s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.285s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.411s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.425s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.637s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.783s] -- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.823s] -- Found moveit_common: 2.12.4 (/opt/ros/jazzy/share/moveit_common/cmake)
+[2.870s] -- Found moveit_core: 2.12.4 (/opt/ros/jazzy/share/moveit_core/cmake)
+[2.921s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.984s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[3.130s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.130s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.757s] -- Found moveit_ros_planning: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning/cmake)
+[3.772s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[3.928s] -- Found moveit_ros_planning_interface: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[3.928s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[3.974s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[4.071s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[4.236s] -- Found moveit_task_constructor_core: 0.1.4 (/opt/ros/jazzy/share/moveit_task_constructor_core/cmake)
+[4.265s] -- Found mycobot_interfaces: 0.0.0 (/home/ibrahim/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake)
+[4.645s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+[4.651s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[4.651s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[4.652s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[4.652s]   cmake_policy command to set the policy and suppress this warning.
+[4.652s] 
+[4.652s]   CMake variable FLANN_ROOT is set to:
+[4.652s] 
+[4.652s]     /usr
+[4.653s] 
+[4.653s]   For compatibility, find_package is ignoring the variable, but code in a
+[4.653s]   .cmake module might still use it.
+[4.653s] Call Stack (most recent call first):
+[4.653s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[4.654s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[4.654s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[4.654s]   CMakeLists.txt:52 (find_package)
+[4.654s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.654s] [0m
+[4.670s] -- Found flann version 1.9.2
+[8.876s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[27.959s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[28.113s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[28.861s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[28.907s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[34.831s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[34.839s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[35.709s] -- Found Qhull version 8.0.2
+[37.034s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[38.140s] -- looking for PCL_COMMON
+[38.142s] -- looking for PCL_KDTREE
+[38.142s] -- looking for PCL_OCTREE
+[38.147s] -- looking for PCL_SEARCH
+[38.147s] -- looking for PCL_SAMPLE_CONSENSUS
+[38.151s] -- looking for PCL_FILTERS
+[38.152s] -- looking for PCL_2D
+[38.153s] -- looking for PCL_GEOMETRY
+[38.154s] -- looking for PCL_IO
+[38.156s] -- looking for PCL_FEATURES
+[38.157s] -- looking for PCL_ML
+[38.158s] -- looking for PCL_SEGMENTATION
+[38.159s] -- looking for PCL_VISUALIZATION
+[38.161s] -- looking for PCL_SURFACE
+[38.162s] -- looking for PCL_REGISTRATION
+[38.164s] -- looking for PCL_KEYPOINTS
+[38.165s] -- looking for PCL_TRACKING
+[38.172s] -- looking for PCL_RECOGNITION
+[38.173s] -- looking for PCL_STEREO
+[38.174s] -- looking for PCL_APPS
+[38.175s] -- looking for PCL_IN_HAND_SCANNER
+[38.187s] -- looking for PCL_MODELER
+[38.187s] -- looking for PCL_POINT_CLOUD_EDITOR
+[38.187s] -- looking for PCL_OUTOFCORE
+[38.187s] -- looking for PCL_PEOPLE
+[38.240s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[38.790s] -- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[39.438s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[39.753s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[39.758s] -- Configured cppcheck include dirs: /home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/include;$<BUILD_INTERFACE:/home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/include>
+[39.759s] -- Configured cppcheck exclude dirs and/or files: 
+[39.792s] -- Added test 'flake8' to check Python code syntax and style conventions
+[39.792s] -- Configured 'flake8' exclude dirs and/or files: 
+[39.853s] -- Added test 'lint_cmake' to check CMake code style
+[39.858s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[39.861s] -- Added test 'uncrustify' to check C / C++ code style
+[39.869s] -- Configured uncrustify additional arguments: 
+[39.870s] -- Added test 'xmllint' to check XML markup files
+[39.909s] -- Configuring done (39.4s)
+[42.578s] -- Generating done (2.5s)
+[42.961s] -- Build files have been written to: /home/ibrahim/ros2_ws/build/mycobot_mtc_pick_place_demo
+[44.361s] [  6%] [32mBuilding CXX object CMakeFiles/cluster_extraction.dir/src/cluster_extraction.cpp.o[0m
+[67.366s] [ 12%] [32m[1mLinking CXX shared library libcluster_extraction.so[0m
+[72.998s] [ 12%] Built target cluster_extraction
+[73.182s] [ 18%] [32mBuilding CXX object CMakeFiles/object_segmentation.dir/src/object_segmentation.cpp.o[0m
+[104.007s] [ 25%] [32m[1mLinking CXX shared library libobject_segmentation.so[0m
+[106.311s] [ 25%] Built target object_segmentation
+[106.589s] [ 31%] [32mBuilding CXX object CMakeFiles/plane_segmentation.dir/src/plane_segmentation.cpp.o[0m
+[184.379s] [ 37%] [32m[1mLinking CXX shared library libplane_segmentation.so[0m
+[188.135s] /usr/bin/ld: final link failed: No space left on device
+[188.151s] collect2: error: ld returned 1 exit status
+[188.156s] gmake[2]: *** [CMakeFiles/plane_segmentation.dir/build.make:593: libplane_segmentation.so] Error 1
+[188.157s] gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/plane_segmentation.dir/all] Error 2
+[188.159s] gmake: *** [Makefile:146: all] Error 2

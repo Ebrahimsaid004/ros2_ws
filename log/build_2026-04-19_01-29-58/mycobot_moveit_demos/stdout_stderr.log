@@ -1,0 +1,22 @@
+[ 50%] Built target hello_moveit
+[100%] Built target plan_around_objects
+-- Install configuration: ""
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/lib/mycobot_moveit_demos/hello_moveit
+-- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_moveit_demos/lib/mycobot_moveit_demos/hello_moveit" to ""
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/lib/mycobot_moveit_demos/plan_around_objects
+-- Set non-toolchain portion of runtime path of "/home/ibrahim/ros2_ws/install/mycobot_moveit_demos/lib/mycobot_moveit_demos/plan_around_objects" to ""
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/ament_index/resource_index/package_run_dependencies/mycobot_moveit_demos
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/ament_index/resource_index/parent_prefix_path/mycobot_moveit_demos
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/environment/ament_prefix_path.sh
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/environment/ament_prefix_path.dsv
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/environment/path.sh
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/environment/path.dsv
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/local_setup.bash
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/local_setup.sh
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/local_setup.zsh
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/local_setup.dsv
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/package.dsv
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/ament_index/resource_index/packages/mycobot_moveit_demos
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/cmake/mycobot_moveit_demosConfig.cmake
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/cmake/mycobot_moveit_demosConfig-version.cmake
+-- Installing: /home/ibrahim/ros2_ws/install/mycobot_moveit_demos/share/mycobot_moveit_demos/package.xml

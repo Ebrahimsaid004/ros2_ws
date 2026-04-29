@@ -1,0 +1,12 @@
+[ 16%] Built target mycobot_mtc_demos_alternative_path_costs
+[ 33%] Built target ik_clearance_cost_parameters
+[ 50%] Built target mycobot_mtc_demos_modular
+[ 66%] Built target mycobot_mtc_demos_ik_clearance_cost
+[ 75%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/src/fallbacks_move_to.cpp.o[0m
+[01m[K/home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/fallbacks_move_to.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/ibrahim/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/fallbacks_move_to.cpp:93:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct moveit::core::CartesianPrecision[m[K’ has no member named ‘[01m[Kvalue[m[K’
+   93 |   precision.[01;31m[Kvalue[m[K = 2.0;
+      |             [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/build.make:76: CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/src/fallbacks_move_to.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
