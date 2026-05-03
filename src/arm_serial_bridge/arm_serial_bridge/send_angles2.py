@@ -25,10 +25,10 @@ def main():
 
     # 🧪 جرّب كذا حركة ورا بعض
     time.sleep(2)
-    node.send([200,100,100,100,100,100])
+    node.send([100,100,100,100,100,100])
 
     time.sleep(6)
-    node.send([20,10,10,10,10,10])
+    node.send([10,10,10,10,10,10])
     
     time.sleep(6)
     node.send([0,0,0,0,0,0])
