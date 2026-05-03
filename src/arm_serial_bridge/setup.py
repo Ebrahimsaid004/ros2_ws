@@ -17,6 +17,7 @@ setup(
         'console_scripts': [
             'joint_to_serial = arm_serial_bridge.joint_to_serial:main',
             'send_angles = arm_serial_bridge.send_angles:main',
+            'send_angles2 = arm_serial_bridge.send_angles2:main',
         ],
     },
 )
